@@ -14,7 +14,7 @@ const User_Route = require("./routes/User_Route"); // Importing User routes
 const app = express(); // Initializing Express application
 app.use(bodyParser.json()); // Configuring Express to use JSON as the request body parser
 
-const database_url = "mongodb://127.0.0.1:27017/project-db"; // MongoDB URL for connecting to the database
+const database_url = "mongodb+srv://sajith:asdQWE123@cluster0.exwgg9r.mongodb.net/project?retryWrites=true&w=majority"; // MongoDB URL for connecting to the database
 
 app.use(cors()); // Enabling CORS for cross-origin requests
 
